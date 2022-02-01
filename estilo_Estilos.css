@@ -1,0 +1,161 @@
+html,body{
+	height: 100%;
+}
+
+.cabecera{
+	background-image: url(imagenes/Comics.jpg);
+	height: 250px;
+	font-size: 4vw;
+	color: rgb(255,51,0);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+.navPrinc{
+	background-color: orange;
+	height: 100px;
+	color: white;
+	display: flex;
+	align-items: center;
+	font-size: 1vw;
+}
+#seccion{
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.nav{
+	float: left;
+	width: 18%;
+	height: 2200px;
+	background-color: rgb(255,51,0);
+}
+.contenido{
+	float: right;
+	width: 82%;
+	height: 2200px;
+}
+h1{
+	font-size: 2vw;
+	font-style: italic;
+}
+h2{
+	font-size: 1.5vw;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+h4{
+	font-size: 1vw;
+	margin-left: 1px;
+	margin-right: 1px;
+	color: lightgrey;
+}
+p{
+	font-size: 0.9vw;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.img1{
+	float: left;
+	height: 150px;
+	width: 30%;
+	margin-left: 3%;
+	margin-right: 2%;
+	margin-top: 3%;
+	background-color: lightgrey;
+}
+.img2{
+	float: left;
+	height: 150px;
+	width: 30%;
+	margin-top: 3%;
+	background-color: lightgrey;
+}
+.img3{
+	float: right;
+	height: 150px;
+	width: 30%;
+	margin-left: 2%;
+	margin-right: 3%;
+	margin-top: 3%;
+	background-color: lightgrey;
+}
+#img1{
+	height: 110px;
+	width: 70%;
+	margin-top: 2%;
+}
+#pieFoto{
+	font-size: 0.5vw;
+	margin-bottom: 2%;
+	font-style: italic;
+}
+#Epinal{
+	background-color: lightgrey;
+	float: right;
+	width: 15vw;
+	height: 350px;
+	margin: 2px;
+}
+#imgEpinal{
+	height: auto;
+	width: 100%;
+	margin-top: 2%;
+}
+
+#imgest{
+	width: 60%;
+}
+
+.imgizq{
+	width: 30%;
+	margin-left: 20%;
+	float: left;
+}
+
+.imgder{
+	width: 30%;
+	margin-right: 20%;
+	float: right;
+}
+
+#imgrev{
+	width: 80%;
+}
+
+#estilos{
+	font-size: 1vw;
+}
+
+.imgizqu{
+	margin-left: 10%;
+	width: 20%;
+	float: left;
+}
+
+.imgcent{
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 20%;
+	float: left;
+}
+
+.imgdere{
+	width: 20%;
+	margin-right: 10%;
+	float: right;
+}
+
+#autores{
+	height: 410px;
+	position: relative;
+}
+th{
+	width: 33%;
+	padding-top: 5%;
+}
+#galeria{
+	width: 50%;
+}

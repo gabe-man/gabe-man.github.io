@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="estilo_Encuesta.css">
+	<title>El 9º arte(Autores Destacados)</title>
+</head>
+<body>
+	<div class="cabecera">
+		<b>El 9º arte</b>
+	</div>
+	<div class="navPrinc">
+		<div id="seccion">
+			<a href="index.html"><b>Historia del comic</b></a>
+		</div>
+		<div id="seccion">
+			<a href="el 9º arte_Estilos.html"><b>Estilos</b></a>
+		</div>
+		<div id="seccion">
+			<a href="el 9º arte_Autores.html"><b>Autores Destacados</b></a>
+		</div>
+		<div id="seccion">
+			<a href="el 9º arte_Galeria.html"><b>Galeria</b></a>
+		</div>
+		<div id="seccion">
+			<b>Encuesta</b>
+		</div>
+	</div>
+	<div class="nav">
+	</div>
+	<div class="contenido">
+		<center><h1><b>Encuesta</b></h1></center>
+        <center>
+            <form>
+                <b><label for="fechanacimiento">Introduzca se fecha de nacimiento:</label></b><br>
+                <input type="date" id="fechanacimiento" name="fechanacimiento">
+                <br>
+                <b><p>¿Cual es su estilo favorito de cómic?</p></b>
+                <input type="radio" id="americano" name="favestilo" value="Americano">
+                <label for="americano">Cómic Americano</label><br>
+                <input type="radio" id="europeo" name="favestilo" value="Europeo">
+                <label for="europeo">Cómic Europeo</label><br>
+                <input type="radio" id="manga" name="favestilo" value="Manga">
+                <label for="manga">Manga</label><br>
+                <br>
+                <b><label for="numcomics">¿Cuantos cómics has leido en tu vida?</label></b><br>
+                <input type="text" name="numerocomics" id="numcomics" pattern="[1-9]"><br>
+                <br>
+                <b><label for="email">Introduzca su correo electrónico</label></b><br>
+                <input type="email" name="correo" id="email"><br>
+                <br>
+                <b><label for="opinion">¿Cual es su opinión de la web?</label></b><br>
+                <textarea name="opinion" id="opinion" cols="50" rows="10"></textarea><br>
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
+        </center>
+	</div>
+</body>
+</html>
